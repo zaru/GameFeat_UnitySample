@@ -1,0 +1,28 @@
+<html>
+<meta http-equiv='content-type' content='text/html;charset=UTF-8'>
+<head>
+<link type='text/css' rel='stylesheet' href='gamefeat_style.css' />
+<script>
+function load() {
+	var img = document.getElementById('overlay_load');
+	img.style.display = '';
+}
+function error(){
+	var img = document.getElementById('overlay_load');
+	img.style.display = 'none';
+}
+</script>
+
+</head>
+<body>
+	<div>
+		<a href="click://">
+			<img id="overlay_default" src='%defalut_img' />
+			<img id="overlay_load" style="" src='%load_img' onload="load()" onerror="error()" />
+		</a>
+		<div id="overlay_close">
+			<a href="close://"><img src="gamefeat_overlay_close.png" /></a>
+		</div>
+	</div>
+</body>
+</html>
