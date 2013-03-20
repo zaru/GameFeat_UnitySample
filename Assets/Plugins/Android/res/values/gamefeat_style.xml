@@ -1,5 +1,0 @@
-<resources>
-	<style name="GameFeatDialog" parent="android:style/Theme.Dialog">
-        <item name="android:windowBackground">@android:color/transparent</item>
-    </style>
-</resources>
