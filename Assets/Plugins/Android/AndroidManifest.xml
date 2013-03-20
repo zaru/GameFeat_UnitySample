@@ -16,7 +16,7 @@
     </activity>
 		
     <!-- GameFeat START -->
-	<meta-data android:name="gamefeat_site_id" android:value="1" />
+	<meta-data android:name="gamefeat_site_id" android:value="【メディアID】" />
 	<activity
 		android:name="jp.basicinc.gamefeat.android.sdk.view.GameFeatAppActivity"
 		android:configChanges="orientation|keyboardHidden"
